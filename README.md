@@ -1,6 +1,6 @@
-Tempestra is a deep learning climate model surrogate that uses advanced neural networks to predict weather patterns and storm trajectories across different regions.
+**Tempestra** is a deep learning climate model surrogate that uses advanced neural networks to predict weather patterns and storm trajectories across different regions.
 
-Model Architecture:
+**Model Architecture:**
 
 Neural Network Types
 
@@ -11,7 +11,7 @@ Physics-Informed Neural Network (PINN)
 
 Hybrid CNN-PINN
 
-Parameters
+**Parameters**
 
 Time Steps: Controls prediction horizon (6-120 hours)
 
@@ -19,7 +19,7 @@ Resolution: Affects spatial detail (1-10km)
 
 Ensemble Size: Number of model variants (1-50)
 
-Usage Guide:
+**Usage Guide:**
 
 Region Selection
 Choose between United States, India, or China for region-specific predictions. Each region uses locally trained models optimized for regional weather patterns.
