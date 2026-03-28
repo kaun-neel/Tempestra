@@ -4,7 +4,7 @@ Deep Learning Climate Model Surrogate
 
 Fast, scalable, and intelligent weather prediction powered by neural networks.
 
-Overview
+<h2>Overview</h2>
 
 Tempestra is a next-generation deep learning surrogate model designed to predict weather patterns and storm trajectories with high accuracy and efficiency.
 
@@ -12,7 +12,7 @@ By combining data-driven learning with physical constraints, Tempestra delivers 
 
 computational cost of traditional numerical weather models.
 
-Model Architecture
+<h2>Model Architecture</h2>
 
 Tempestra leverages a hybrid deep learning framework that integrates multiple neural paradigms:
 
@@ -40,7 +40,7 @@ Achieves better generalization across regions
 
 Ideal for extreme weather prediction
 
-Parameters : 
+<h2>Parameters :</h2> 
 
 Parameter	Range	Description
 
@@ -50,7 +50,7 @@ Resolution	1 – 10 km	Spatial granularity of forecasts
 
 Ensemble Size	1 – 50	Number of model variants for uncertainty estimation
 
-Features
+<h2>Features</h2>
 
 ⚡ Fast Inference – Real-time or near real-time predictions
 
@@ -62,7 +62,7 @@ Features
 
 🔬 Physics-Aware Learning – Maintains scientific consistency
 
-Use Cases
+<h2>Use Cases</h2>
 
 🌪️ Cyclone & storm tracking
 
@@ -74,7 +74,7 @@ Use Cases
 
 📡 Satellite data analysis pipelines
 
-<h1>Tech Stack</h1>
+<h2>Tech Stack</h2>
 
 Deep Learning Frameworks: PyTorch / TensorFlow
 
@@ -84,7 +84,7 @@ Modeling: CNNs, PINNs, Hybrid architectures
 
 Deployment: Docker, FastAPI (optional integration)
 
-Why Tempestra?
+<h2>Why Tempestra?</h2>
 
 Traditional climate models are:
 
@@ -95,7 +95,7 @@ Computationally expensive 💻
 Hard to scale 📉
 
 
-Tempestra offers:
+<h2>Tempestra offers:</h2>
 
 ⚡ Speed (orders of magnitude faster)
 
@@ -113,16 +113,16 @@ Tempestra offers:
 
 🤖 Autonomous weather decision systems
 
-🤝 Contributing
+<h2>Contributing</h2>
 
 Contributions are welcome!
 
 Feel free to open issues, suggest features, or submit PRs.
 
-📜 License
+<h2>📜 License</h2>
 
 MIT License (or specify your own)
 
-💡 Tagline
+<h2>💡 Tagline</h2>
 
 “From data to dynamics — redefining climate intelligence.”
