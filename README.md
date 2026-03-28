@@ -1,30 +1,86 @@
-**Tempestra** is a deep learning climate model surrogate that uses advanced neural networks to predict weather patterns and storm trajectories across different regions.
+████████╗███████╗███╗   ███╗██████╗ ███████╗███████╗████████╗██████╗  █████╗ 
+╚══██╔══╝██╔════╝████╗ ████║██╔══██╗██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔══██╗
+   ██║   █████╗  ██╔████╔██║██████╔╝█████╗  ███████╗   ██║   ██████╔╝███████║
+   ██║   ██╔══╝  ██║╚██╔╝██║██╔═══╝ ██╔══╝  ╚════██║   ██║   ██╔══██╗██╔══██║
+   ██║   ███████╗██║ ╚═╝ ██║██║     ███████╗███████║   ██║   ██║  ██║██║  ██║
+   ╚═╝   ╚══════╝╚═╝     ╚═╝╚═╝     ╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝
 
-**Model Architecture:**
+<h1>Tempestra</h1>
+Deep Learning Climate Model Surrogate
 
-Neural Network Types
+Fast, scalable, and intelligent weather prediction powered by neural networks.
 
-Convolutional Neural Network (CNN)
+Overview
 
-Physics-Informed Neural Network (PINN)
+Tempestra is a next-generation deep learning surrogate model designed to predict weather patterns and storm trajectories with high accuracy and efficiency.
 
+By combining data-driven learning with physical constraints, Tempestra delivers reliable forecasts across multiple spatial and temporal scales—without the heavy computational cost of traditional numerical weather models.
 
-Hybrid CNN-PINN
+Model Architecture
 
-**Parameters**
+Tempestra leverages a hybrid deep learning framework that integrates multiple neural paradigms:
 
-Time Steps: Controls prediction horizon (6-120 hours)
+🔹 Convolutional Neural Networks (CNN)
+Captures spatial dependencies in climate data
+Learns patterns from satellite and grid-based inputs
+Efficient for high-resolution weather maps
+🔹 Physics-Informed Neural Networks (PINN)
+Embeds physical laws directly into the training process
+Ensures physically consistent predictions
+Reduces unrealistic outputs
+🔹 Hybrid CNN–PINN Model
+Combines data-driven learning + physics constraints
+Achieves better generalization across regions
+Ideal for extreme weather prediction
+Parameters : 
+Parameter	Range	Description
+Time Steps	6 – 120 hrs	Controls prediction horizon
+Resolution	1 – 10 km	Spatial granularity of forecasts
+Ensemble Size	1 – 50	Number of model variants for uncertainty estimation
+Features
+⚡ Fast Inference – Real-time or near real-time predictions
+🌐 Multi-Region Support – Works across diverse geographies
+📊 Ensemble Forecasting – Improves robustness and uncertainty estimation
+🌧️ Storm Trajectory Prediction – Tracks cyclones and severe weather events
+🔬 Physics-Aware Learning – Maintains scientific consistency
+Use Cases
+🌪️ Cyclone & storm tracking
+🌦️ Regional weather forecasting
+🌍 Climate simulation acceleration
+🚨 Disaster preparedness systems
+📡 Satellite data analysis pipelines
+<h1>Tech Stack</h1>
+Deep Learning Frameworks: PyTorch / TensorFlow
+Data Sources: Satellite imagery, meteorological datasets
+Modeling: CNNs, PINNs, Hybrid architectures
+Deployment: Docker, FastAPI (optional integration)
+📈 Why Tempestra?
 
-Resolution: Affects spatial detail (1-10km)
+Traditional climate models are:
 
-Ensemble Size: Number of model variants (1-50)
+Slow ⏳
+Computationally expensive 💻
+Hard to scale 📉
 
-**Usage Guide:**
+Tempestra offers:
 
-Region Selection
-Choose between United States, India, or China for region-specific predictions. Each region uses locally trained models optimized for regional weather patterns.
+⚡ Speed (orders of magnitude faster)
+🎯 High accuracy with learning-based models
+🔁 Scalable deployment for real-world systems
+🔮 Future Enhancements
+🌐 Global-scale forecasting models
+🧠 Integration with LLM-based climate reasoning
+📡 Real-time satellite streaming pipelines
+🤖 Autonomous weather decision systems
+🤝 Contributing
 
-Running Predictions
-Adjust model parameters and click "Run Prediction" to generate new forecasts. Results include storm paths, confidence intervals, and performance metrics.
+Contributions are welcome!
+Feel free to open issues, suggest features, or submit PRs.
 
-![image](https://github.com/user-attachments/assets/1d9e6377-dc0c-40a2-b665-e09fe74474e5)
+📜 License
+
+MIT License (or specify your own)
+
+💡 Tagline
+
+“From data to dynamics — redefining climate intelligence.”
