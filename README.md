@@ -84,7 +84,7 @@ Modeling: CNNs, PINNs, Hybrid architectures
 
 Deployment: Docker, FastAPI (optional integration)
 
-📈 Why Tempestra?
+Why Tempestra?
 
 Traditional climate models are:
 
@@ -98,16 +98,25 @@ Hard to scale 📉
 Tempestra offers:
 
 ⚡ Speed (orders of magnitude faster)
+
 🎯 High accuracy with learning-based models
+
 🔁 Scalable deployment for real-world systems
+
 🔮 Future Enhancements
+
 🌐 Global-scale forecasting models
+
 🧠 Integration with LLM-based climate reasoning
+
 📡 Real-time satellite streaming pipelines
+
 🤖 Autonomous weather decision systems
+
 🤝 Contributing
 
 Contributions are welcome!
+
 Feel free to open issues, suggest features, or submit PRs.
 
 📜 License
